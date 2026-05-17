@@ -28,7 +28,7 @@ class GameWindow(arcade.Window):
             self.player_speed = 0
 
     def on_update(self, delta_time):
-        pass
+        self.player_x += self.player_speed
 
 
 def main():
