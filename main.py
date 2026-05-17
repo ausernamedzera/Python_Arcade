@@ -17,6 +17,8 @@ class GameWindow(arcade.Window):
         arcade.draw_circle_filled(self.player_x, self.player_y, 20, arcade.color.CYAN)
 
     def on_key_press(self, key, modifiers):
+        if key == arcade.key.LEFT:
+
 
 def main():
     window = GameWindow()
