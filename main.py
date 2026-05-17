@@ -23,6 +23,9 @@ class GameWindow(arcade.Window):
         elif key == arcade.key.RIGHT:
             self.player_x += 10
 
+    def on_key_release(self, key, modifiers):
+        pass
+
 
 def main():
     window = GameWindow()
