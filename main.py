@@ -27,6 +27,9 @@ class GameWindow(arcade.Window):
         if key == arcade.key.LEFT or key == arcade.key.RIGHT:
             self.player_speed = 0
 
+    def on_update(self, delta_time):
+        pass
+
 
 def main():
     window = GameWindow()
