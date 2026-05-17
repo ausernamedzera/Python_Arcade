@@ -19,9 +19,9 @@ class GameWindow(arcade.Window):
 
     def on_key_press(self, key, modifiers):
         if key == arcade.key.LEFT:
-            self.player_x -= 10
+            self.player_x -= 5
         elif key == arcade.key.RIGHT:
-            self.player_x += 10
+            self.player_x += 5
 
     def on_key_release(self, key, modifiers):
         if key == arcade.key.LEFT or key == arcade.key.RIGHT:
