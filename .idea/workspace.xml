@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="on_key_press_method_right_key_completed" />
+    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="on_update_method_v1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,12 +74,120 @@
       <option name="project" value="LOCAL" />
       <updated>1779050550332</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="circle_added">
+      <option name="closed" value="true" />
+      <created>1779050694463</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779050694463</updated>
+    </task>
+    <task id="LOCAL-00004" summary="on_key_press_method_v1">
+      <option name="closed" value="true" />
+      <created>1779050749978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779050749978</updated>
+    </task>
+    <task id="LOCAL-00005" summary="on_key_press_method_v2">
+      <option name="closed" value="true" />
+      <created>1779050772574</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779050772574</updated>
+    </task>
+    <task id="LOCAL-00006" summary="on_key_press_method_v3">
+      <option name="closed" value="true" />
+      <created>1779050791431</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779050791431</updated>
+    </task>
+    <task id="LOCAL-00007" summary="on_key_press_method_right_key">
+      <option name="closed" value="true" />
+      <created>1779050817099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1779050817099</updated>
+    </task>
+    <task id="LOCAL-00008" summary="on_key_press_method_right_key_completed">
+      <option name="closed" value="true" />
+      <created>1779050846656</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779050846656</updated>
+    </task>
+    <task id="LOCAL-00009" summary="self_player_speed_0">
+      <option name="closed" value="true" />
+      <created>1779050945787</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779050945787</updated>
+    </task>
+    <task id="LOCAL-00010" summary="on_key_release">
+      <option name="closed" value="true" />
+      <created>1779050986138</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1779050986138</updated>
+    </task>
+    <task id="LOCAL-00011" summary="on_key_release_method">
+      <option name="closed" value="true" />
+      <created>1779051022068</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1779051022068</updated>
+    </task>
+    <task id="LOCAL-00012" summary="on_key_pressed_changes">
+      <option name="closed" value="true" />
+      <created>1779051038831</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1779051038831</updated>
+    </task>
+    <task id="LOCAL-00013" summary="on_update_method">
+      <option name="closed" value="true" />
+      <created>1779051116040</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1779051116040</updated>
+    </task>
+    <task id="LOCAL-00014" summary="on_update_method_v1">
+      <option name="closed" value="true" />
+      <created>1779051133848</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1779051133848</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
     <MESSAGE value="trying_to_learn" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying_to_learn" />
+    <MESSAGE value="circle_added" />
+    <MESSAGE value="on_key_press_method_v1" />
+    <MESSAGE value="on_key_press_method_v2" />
+    <MESSAGE value="on_key_press_method_v3" />
+    <MESSAGE value="on_key_press_method_right_key" />
+    <MESSAGE value="on_key_press_method_right_key_completed" />
+    <MESSAGE value="self_player_speed_0" />
+    <MESSAGE value="on_key_release" />
+    <MESSAGE value="on_key_release_method" />
+    <MESSAGE value="on_key_pressed_changes" />
+    <MESSAGE value="on_update_method" />
+    <MESSAGE value="on_update_method_v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="on_update_method_v1" />
   </component>
 </project>

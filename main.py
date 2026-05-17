@@ -19,7 +19,7 @@ class GameWindow(arcade.Window):
 
     def on_key_press(self, key, modifiers):
         if key == arcade.key.LEFT:
-            self.player_x -= 5
+            self.player_speed = -5
         elif key == arcade.key.RIGHT:
             self.player_x += 5
 
