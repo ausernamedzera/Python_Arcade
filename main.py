@@ -9,9 +9,12 @@ class GameWindow(arcade.Window):
     def __init__(self):
         super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
         arcade.set_background_color(arcade.color.BLACK)
+        self.player_x = SCREEN_WIDTH / 2
+        self.player_y = 50
 
     def on_draw(self):
         self.clear()
+        arcade.draw_circle_filled(self.player_x, self.player_y, 20, arcade.color.CYAN)
 
 def main():
     window = GameWindow()
