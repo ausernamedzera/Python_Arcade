@@ -30,7 +30,7 @@ class GameWindow(arcade.Window):
     def on_update(self, delta_time):
         self.player_x += self.player_speed
 
-        if self.player_x > 20:
+        if self.player_x < 20:
             self.player_x = 20
         if self.player_x > SCREEN_WIDTH - 20:
             self.player_x = SCREEN_WIDTH - 20
