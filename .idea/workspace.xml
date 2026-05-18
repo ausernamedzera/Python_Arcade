@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="on_key_press_changes_v1" />
+    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="on_draw_updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +184,79 @@
       <option name="project" value="LOCAL" />
       <updated>1779051337779</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="on_update_border">
+      <option name="closed" value="true" />
+      <created>1779136653620</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1779136653620</updated>
+    </task>
+    <task id="LOCAL-00018" summary="on_update_border_v1">
+      <option name="closed" value="true" />
+      <created>1779136664034</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1779136664034</updated>
+    </task>
+    <task id="LOCAL-00019" summary="on_update_border_v2">
+      <option name="closed" value="true" />
+      <created>1779136706147</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1779136706147</updated>
+    </task>
+    <task id="LOCAL-00020" summary="on_update_border_bug_fix">
+      <option name="closed" value="true" />
+      <created>1779136780501</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1779136780501</updated>
+    </task>
+    <task id="LOCAL-00021" summary="bullets_added">
+      <option name="closed" value="true" />
+      <created>1779136857593</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1779136857593</updated>
+    </task>
+    <task id="LOCAL-00022" summary="on_key_press_bullets_">
+      <option name="closed" value="true" />
+      <created>1779136902034</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1779136902034</updated>
+    </task>
+    <task id="LOCAL-00023" summary="on_key_press_bullets_v2">
+      <option name="closed" value="true" />
+      <created>1779136932479</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1779136932479</updated>
+    </task>
+    <task id="LOCAL-00024" summary="on_update_updated">
+      <option name="closed" value="true" />
+      <created>1779136995552</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1779136995552</updated>
+    </task>
+    <task id="LOCAL-00025" summary="on_draw_updated">
+      <option name="closed" value="true" />
+      <created>1779137085784</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1779137085784</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,6 +276,15 @@
     <MESSAGE value="on_update_method_v1" />
     <MESSAGE value="on_key_press_changes" />
     <MESSAGE value="on_key_press_changes_v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="on_key_press_changes_v1" />
+    <MESSAGE value="on_update_border" />
+    <MESSAGE value="on_update_border_v1" />
+    <MESSAGE value="on_update_border_v2" />
+    <MESSAGE value="on_update_border_bug_fix" />
+    <MESSAGE value="bullets_added" />
+    <MESSAGE value="on_key_press_bullets_" />
+    <MESSAGE value="on_key_press_bullets_v2" />
+    <MESSAGE value="on_update_updated" />
+    <MESSAGE value="on_draw_updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="on_draw_updated" />
   </component>
 </project>
