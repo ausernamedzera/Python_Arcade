@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="on_update_method_v1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="on_key_press_changes_v1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +168,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779051133848</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="on_key_press_changes">
+      <option name="closed" value="true" />
+      <created>1779051296761</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1779051296761</updated>
+    </task>
+    <task id="LOCAL-00016" summary="on_key_press_changes_v1">
+      <option name="closed" value="true" />
+      <created>1779051337778</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1779051337779</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,6 +202,8 @@
     <MESSAGE value="on_key_pressed_changes" />
     <MESSAGE value="on_update_method" />
     <MESSAGE value="on_update_method_v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="on_update_method_v1" />
+    <MESSAGE value="on_key_press_changes" />
+    <MESSAGE value="on_key_press_changes_v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="on_key_press_changes_v1" />
   </component>
 </project>
