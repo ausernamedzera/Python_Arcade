@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="on_draw_updated" />
+    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="on_key_press_bug_fix">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -256,11 +258,18 @@
       <option name="project" value="LOCAL" />
       <updated>1779137085784</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="on_key_press_bug_fix">
+      <option name="closed" value="true" />
+      <created>1779137364995</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1779137364995</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new" />
     <MESSAGE value="trying_to_learn" />
     <MESSAGE value="circle_added" />
     <MESSAGE value="on_key_press_method_v1" />
@@ -285,6 +294,7 @@
     <MESSAGE value="on_key_press_bullets_v2" />
     <MESSAGE value="on_update_updated" />
     <MESSAGE value="on_draw_updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="on_draw_updated" />
+    <MESSAGE value="on_key_press_bug_fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="on_key_press_bug_fix" />
   </component>
 </project>

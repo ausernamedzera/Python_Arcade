@@ -29,9 +29,6 @@ class GameWindow(arcade.Window):
         elif key == arcade.key.SPACE:
             self.bullets.append([self.player_x, self.player_y])
 
-        if key == arcade.key.SPACE:
-            self.bullets.append([self.player_x, self.player_y])
-
     def on_key_release(self, key, modifiers):
         if key == arcade.key.LEFT or key == arcade.key.RIGHT:
             self.player_speed = 0
@@ -46,7 +43,7 @@ class GameWindow(arcade.Window):
             self.player_x = SCREEN_WIDTH - 20
 
         for bullet in self.bullets:
-            bullet[1] += bullet[5]
+            bullet[1] += 5
 
         self.bullets = [b for b in self.bullets if b[1] < SCREEN_HEIGHT]
 
