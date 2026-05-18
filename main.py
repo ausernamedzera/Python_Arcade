@@ -24,6 +24,9 @@ class GameWindow(arcade.Window):
         elif key == arcade.key.RIGHT:
             self.player_speed = 5
 
+        if key == arcade.key.SPACE:
+
+
     def on_key_release(self, key, modifiers):
         if key == arcade.key.LEFT or key == arcade.key.RIGHT:
             self.player_speed = 0
