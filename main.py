@@ -18,6 +18,9 @@ class GameWindow(arcade.Window):
         self.clear()
         arcade.draw_circle_filled(self.player_x, self.player_y, 20, arcade.color.CYAN)
 
+        for bullet in self.bullets:
+            arcade.draw_circle_filled(bullet[0], bullet[1], 5, arcade.color.YELLOW)
+
     def on_key_press(self, key, modifiers):
         if key == arcade.key.LEFT:
             self.player_speed = -5
