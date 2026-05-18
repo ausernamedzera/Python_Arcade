@@ -25,7 +25,7 @@ class GameWindow(arcade.Window):
             self.player_speed = 5
 
         if key == arcade.key.SPACE:
-
+            self.bullets.append([self.player_x, self.player_y])
 
     def on_key_release(self, key, modifiers):
         if key == arcade.key.LEFT or key == arcade.key.RIGHT:
