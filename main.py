@@ -12,6 +12,7 @@ class GameWindow(arcade.Window):
         self.player_x = SCREEN_WIDTH / 2
         self.player_y = 50
         self.player_speed = 0
+        self.bullets = []
 
     def on_draw(self):
         self.clear()
