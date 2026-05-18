@@ -39,6 +39,9 @@ class GameWindow(arcade.Window):
         if self.player_x > SCREEN_WIDTH - 20:
             self.player_x = SCREEN_WIDTH - 20
 
+        for bullet in self.bullets:
+            bullet[1] += bullet[5]
+
 
 def main():
     window = GameWindow()
