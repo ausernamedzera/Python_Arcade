@@ -53,6 +53,8 @@ class GameWindow(arcade.Window):
         self.enemy_spawn_timer += delta_time
         if self.enemy_spawn_timer > 1.5:
             x = random.randint(20, SCREEN_WIDTH - 20)
+            self.enemies.append([x, SCREEN_HEIGHT])
+            self.enemy_spawn_timer = 0
 
 
 
