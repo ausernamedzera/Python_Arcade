@@ -56,6 +56,9 @@ class GameWindow(arcade.Window):
             self.enemies.append([x, SCREEN_HEIGHT])
             self.enemy_spawn_timer = 0
 
+        for enemy in self.enemies:
+            enemy[1] -= 3
+            self.enemies = [e for e in self.enemies if e[1] > 0]
 
 
 def main():
