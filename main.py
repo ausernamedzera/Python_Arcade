@@ -51,6 +51,7 @@ class GameWindow(arcade.Window):
         self.bullets = [b for b in self.bullets if b[1] < SCREEN_HEIGHT]
 
         self.enemy_spawn_timer += delta_time
+        if self.enemy_spawn_timer > 1.5:
 
 
 
