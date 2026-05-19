@@ -13,6 +13,8 @@ class GameWindow(arcade.Window):
         self.player_y = 50
         self.player_speed = 0
         self.bullets = []
+        self.enemies = []
+
 
     def on_draw(self):
         self.clear()
