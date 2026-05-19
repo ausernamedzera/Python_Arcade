@@ -14,6 +14,7 @@ class GameWindow(arcade.Window):
         self.player_speed = 0
         self.bullets = []
         self.enemies = []
+        self.enemy_spawn_timer = 0
 
 
     def on_draw(self):
