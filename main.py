@@ -1,4 +1,4 @@
-import arcade
+import random
 import arcade
 
 SCREEN_WIDTH = 800
