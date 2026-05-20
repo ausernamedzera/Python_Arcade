@@ -63,7 +63,8 @@ class GameWindow(arcade.Window):
             enemy[1] -= 3
             self.enemies = [e for e in self.enemies if e[1] > 0]
 
-        for bullet in self.bullets:
+        for bullet in self.bullets[:]:
+            for enemy in self.enemies[:]:
 
 
 def main():
