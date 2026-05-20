@@ -48,7 +48,7 @@ class GameWindow(arcade.Window):
         elif key == arcade.key.SPACE:
             self.bullets.append([self.player_x, self.player_y])
 
-        if key == arcade.key.ESCAPE:
+        if key == arcade.key.ESCAPE and self.game_over:
             arcade.exit()
 
         if key == arcade.key.R and self.game_over:
