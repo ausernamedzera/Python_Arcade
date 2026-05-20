@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="collision_and_remove_mechanic">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="score">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,11 +378,26 @@
       <option name="project" value="LOCAL" />
       <updated>1779280396744</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="score">
+      <option name="closed" value="true" />
+      <created>1779304342358</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1779304342358</updated>
+    </task>
+    <task id="LOCAL-00042" summary="score">
+      <option name="closed" value="true" />
+      <created>1779304374698</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1779304374698</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="on_key_press_changes" />
     <MESSAGE value="on_key_press_changes_v1" />
     <MESSAGE value="on_update_border" />
     <MESSAGE value="on_update_border_v1" />
@@ -407,6 +422,7 @@
     <MESSAGE value="collision_mechanic" />
     <MESSAGE value="collision_mechanic_v1" />
     <MESSAGE value="collision_and_remove_mechanic" />
-    <option name="LAST_COMMIT_MESSAGE" value="collision_and_remove_mechanic" />
+    <MESSAGE value="score" />
+    <option name="LAST_COMMIT_MESSAGE" value="score" />
   </component>
 </project>

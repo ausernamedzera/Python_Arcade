@@ -28,6 +28,8 @@ class GameWindow(arcade.Window):
         for enemy in self.enemies:
             arcade.draw_circle_filled(enemy[0], enemy[1], 15, arcade.color.RED)
 
+        arcade.draw_text(f"Score: {self.score}", 10, SCREEN_HEIGHT - 30, arcade.color.WHITE)
+
     def on_key_press(self, key, modifiers):
         if key == arcade.key.LEFT:
             self.player_speed = -5
