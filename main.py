@@ -55,6 +55,9 @@ class GameWindow(arcade.Window):
         if self.game_over:
             return
 
+        if self.lives <= 0:
+            self.game_over = True
+
         print(self.bullets)
         self.player_x += self.player_speed
 
