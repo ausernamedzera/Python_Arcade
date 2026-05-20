@@ -66,8 +66,9 @@ class GameWindow(arcade.Window):
         for bullet in self.bullets[:]:
             for enemy in self.enemies[:]:
                 if abs(bullet[0]-enemy[0]) < 20 and abs(bullet[1] - enemy[1]) < 20:
-
-
+                    self.bullets.remove(bullet)
+                    self.enemies.remove(enemy)
+                    break
 
 def main():
     window = GameWindow()
