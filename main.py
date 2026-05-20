@@ -16,7 +16,7 @@ class GameWindow(arcade.Window):
         self.enemies = []
         self.enemy_spawn_timer = 0
         self.score = 0
-        self.lives = 0
+        self.lives = 5
         self.game_over = False
 
 
