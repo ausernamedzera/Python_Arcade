@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="game_over_lives_v1" />
+    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="game_over_exit_bug_fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,30 +58,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778878887924</updated>
-    </task>
-    <task id="LOCAL-00001" summary="new">
-      <option name="closed" value="true" />
-      <created>1778879170175</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1778879170175</updated>
-    </task>
-    <task id="LOCAL-00002" summary="trying_to_learn">
-      <option name="closed" value="true" />
-      <created>1779050550331</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1779050550332</updated>
-    </task>
-    <task id="LOCAL-00003" summary="circle_added">
-      <option name="closed" value="true" />
-      <created>1779050694463</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1779050694463</updated>
     </task>
     <task id="LOCAL-00004" summary="on_key_press_method_v1">
       <option name="closed" value="true" />
@@ -448,13 +427,34 @@
       <option name="project" value="LOCAL" />
       <updated>1779305836540</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="game_over_exit_The_game">
+      <option name="closed" value="true" />
+      <created>1779306028516</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1779306028517</updated>
+    </task>
+    <task id="LOCAL-00051" summary="game_over_restart_the_game">
+      <option name="closed" value="true" />
+      <created>1779306049837</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1779306049837</updated>
+    </task>
+    <task id="LOCAL-00052" summary="game_over_exit_bug_fix">
+      <option name="closed" value="true" />
+      <created>1779306102247</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1779306102247</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="on_key_press_bullets_" />
-    <MESSAGE value="on_key_press_bullets_v2" />
-    <MESSAGE value="on_update_updated" />
     <MESSAGE value="on_draw_updated" />
     <MESSAGE value="on_key_press_bug_fix" />
     <MESSAGE value="on_update_bug_fix_v2" />
@@ -477,6 +477,9 @@
     <MESSAGE value="game_over" />
     <MESSAGE value="game_over_lives" />
     <MESSAGE value="game_over_lives_v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="game_over_lives_v1" />
+    <MESSAGE value="game_over_exit_The_game" />
+    <MESSAGE value="game_over_restart_the_game" />
+    <MESSAGE value="game_over_exit_bug_fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="game_over_exit_bug_fix" />
   </component>
 </project>

@@ -1,7 +1,4 @@
 import random
-import sys
-from tkinter.constants import CENTER
-
 import arcade
 
 SCREEN_WIDTH = 800
@@ -19,7 +16,7 @@ class GameWindow(arcade.Window):
         self.enemies = []
         self.enemy_spawn_timer = 0
         self.score = 0
-        self.lives = 5
+        self.lives = 0
         self.game_over = False
 
 
@@ -37,8 +34,9 @@ class GameWindow(arcade.Window):
         arcade.draw_text(f"Lives: {self.lives}", 10, SCREEN_HEIGHT - 60, arcade.color.RED, 16)
 
         if self.game_over:
-            arcade.draw_text("GAME OVER", SCREEN_WIDTH/2 - 120, SCREEN_HEIGHT/2, arcade.color.WHITE, 50)
-            arcade.draw_text("Final Score: " + str(self.score), SCREEN_WIDTH/2 - 80, SCREEN_HEIGHT/2 - 60, arcade.color.YELLOW, 25)
+            arcade.draw_text("GAME OVER", SCREEN_WIDTH/2 - 180, SCREEN_HEIGHT/2, arcade.color.WHITE, 50)
+            arcade.draw_text("Final Score: " + str(self.score), SCREEN_WIDTH/2-102, SCREEN_HEIGHT/2 - 60, arcade.color.YELLOW, 25)
+            arcade.draw_text("Press R to Restart, Press ESC to Quit", SCREEN_WIDTH/2-250, SCREEN_HEIGHT/2 - 100, arcade.color.GREEN, 25)
 
     def on_key_press(self, key, modifiers):
         if key == arcade.key.LEFT:
