@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="on_update_bug_fix_v2">
+    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="on_draw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,19 +275,82 @@
       <option name="project" value="LOCAL" />
       <updated>1779137583152</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="enemies_added">
+      <option name="closed" value="true" />
+      <created>1779223467453</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1779223467453</updated>
+    </task>
+    <task id="LOCAL-00029" summary="enemy_spawn_timer">
+      <option name="closed" value="true" />
+      <created>1779223499752</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1779223499752</updated>
+    </task>
+    <task id="LOCAL-00030" summary="enemy_spawn_timer_delta_time">
+      <option name="closed" value="true" />
+      <created>1779223548003</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1779223548003</updated>
+    </task>
+    <task id="LOCAL-00031" summary="enemy_spawn_timer_v1">
+      <option name="closed" value="true" />
+      <created>1779223593555</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1779223593555</updated>
+    </task>
+    <task id="LOCAL-00032" summary="enemy_spawn_timer_random">
+      <option name="closed" value="true" />
+      <created>1779223621772</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1779223621772</updated>
+    </task>
+    <task id="LOCAL-00033" summary="random_imported">
+      <option name="closed" value="true" />
+      <created>1779223643188</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1779223643188</updated>
+    </task>
+    <task id="LOCAL-00034" summary="self.enemy_spawn_timer">
+      <option name="closed" value="true" />
+      <created>1779223691522</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1779223691522</updated>
+    </task>
+    <task id="LOCAL-00035" summary="enemies_moving_on_update">
+      <option name="closed" value="true" />
+      <created>1779223783802</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1779223783802</updated>
+    </task>
+    <task id="LOCAL-00036" summary="on_draw">
+      <option name="closed" value="true" />
+      <created>1779223863835</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1779223863835</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="circle_added" />
-    <MESSAGE value="on_key_press_method_v1" />
-    <MESSAGE value="on_key_press_method_v2" />
-    <MESSAGE value="on_key_press_method_v3" />
-    <MESSAGE value="on_key_press_method_right_key" />
-    <MESSAGE value="on_key_press_method_right_key_completed" />
-    <MESSAGE value="self_player_speed_0" />
-    <MESSAGE value="on_key_release" />
-    <MESSAGE value="on_key_release_method" />
     <MESSAGE value="on_key_pressed_changes" />
     <MESSAGE value="on_update_method" />
     <MESSAGE value="on_update_method_v1" />
@@ -303,6 +367,15 @@
     <MESSAGE value="on_draw_updated" />
     <MESSAGE value="on_key_press_bug_fix" />
     <MESSAGE value="on_update_bug_fix_v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="on_update_bug_fix_v2" />
+    <MESSAGE value="enemies_added" />
+    <MESSAGE value="enemy_spawn_timer" />
+    <MESSAGE value="enemy_spawn_timer_delta_time" />
+    <MESSAGE value="enemy_spawn_timer_v1" />
+    <MESSAGE value="enemy_spawn_timer_random" />
+    <MESSAGE value="random_imported" />
+    <MESSAGE value="self.enemy_spawn_timer" />
+    <MESSAGE value="enemies_moving_on_update" />
+    <MESSAGE value="on_draw" />
+    <option name="LAST_COMMIT_MESSAGE" value="on_draw" />
   </component>
 </project>
