@@ -1,4 +1,7 @@
 import random
+import sys
+from tkinter.constants import CENTER
+
 import arcade
 
 SCREEN_WIDTH = 800
@@ -29,7 +32,11 @@ class GameWindow(arcade.Window):
         for enemy in self.enemies:
             arcade.draw_circle_filled(enemy[0], enemy[1], 15, arcade.color.RED)
 
-        arcade.draw_text(f"Score: {self.score}", 10, SCREEN_HEIGHT - 30, arcade.color.WHITE)
+        arcade.draw_text(f"Score: {self.score}", 10, SCREEN_HEIGHT - 30, arcade.color.WHITE, 16)
+        arcade.draw_text(f"Lives: {self.lives}", 10, SCREEN_HEIGHT - 60, arcade.color.RED, 16)
+
+        if self.lives <= 0:
+            arcade.draw_text("GAME OVER", SCREEN_WIDTH/2, SCREEN_HEIGHT/2, arcade.color.WHITE, 50)
 
     def on_key_press(self, key, modifiers):
         if key == arcade.key.LEFT:
@@ -66,13 +73,13 @@ class GameWindow(arcade.Window):
         for enemy in self.enemies:
             enemy[1] -= 3
             #self.enemies = [e for e in self.enemies if e[1] > 0]
-            surviving_enemies = []
-            for enemy in self.enemies:
-                if enemy[1] > 0:
-                    surviving_enemies.append(enemy)
-                else:
-                    self.lives -= 1
-                self.enemies = surviving_enemies
+        surviving_enemies = []
+        for enemy in self.enemies:
+            if enemy[1] > 0:
+                surviving_enemies.append(enemy)
+            else:
+                self.lives -= 1
+            self.enemies = surviving_enemies
 
         for bullet in self.bullets[:]:
             for enemy in self.enemies[:]:
@@ -81,6 +88,9 @@ class GameWindow(arcade.Window):
                     self.enemies.remove(enemy)
                     self.score += 1
                     break
+
+
+
 
 def main():
     window = GameWindow()

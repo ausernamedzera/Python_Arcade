@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="lives">
+    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="lives_try">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -410,11 +410,18 @@
       <option name="project" value="LOCAL" />
       <updated>1779304622003</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="lives_try">
+      <option name="closed" value="true" />
+      <created>1779304926617</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1779304926617</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="on_update_border" />
     <MESSAGE value="on_update_border_v1" />
     <MESSAGE value="on_update_border_v2" />
     <MESSAGE value="on_update_border_bug_fix" />
@@ -439,6 +446,7 @@
     <MESSAGE value="collision_and_remove_mechanic" />
     <MESSAGE value="score" />
     <MESSAGE value="lives" />
-    <option name="LAST_COMMIT_MESSAGE" value="lives" />
+    <MESSAGE value="lives_try" />
+    <option name="LAST_COMMIT_MESSAGE" value="lives_try" />
   </component>
 </project>
