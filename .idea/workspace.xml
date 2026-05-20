@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="enemy_is_alive" />
+    <list default="true" id="4d477038-d2ae-499e-ab46-b331756c03fc" name="Changes" comment="game_over_lives_v1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -424,13 +424,34 @@
       <option name="project" value="LOCAL" />
       <updated>1779305551540</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="game_over">
+      <option name="closed" value="true" />
+      <created>1779305651040</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1779305651040</updated>
+    </task>
+    <task id="LOCAL-00048" summary="game_over_lives">
+      <option name="closed" value="true" />
+      <created>1779305683017</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1779305683017</updated>
+    </task>
+    <task id="LOCAL-00049" summary="game_over_lives_v1">
+      <option name="closed" value="true" />
+      <created>1779305836540</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1779305836540</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="on_update_border_v2" />
-    <MESSAGE value="on_update_border_bug_fix" />
-    <MESSAGE value="bullets_added" />
     <MESSAGE value="on_key_press_bullets_" />
     <MESSAGE value="on_key_press_bullets_v2" />
     <MESSAGE value="on_update_updated" />
@@ -453,6 +474,9 @@
     <MESSAGE value="lives" />
     <MESSAGE value="lives_try" />
     <MESSAGE value="enemy_is_alive" />
-    <option name="LAST_COMMIT_MESSAGE" value="enemy_is_alive" />
+    <MESSAGE value="game_over" />
+    <MESSAGE value="game_over_lives" />
+    <MESSAGE value="game_over_lives_v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="game_over_lives_v1" />
   </component>
 </project>
