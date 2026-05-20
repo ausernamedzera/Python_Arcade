@@ -36,8 +36,9 @@ class GameWindow(arcade.Window):
         arcade.draw_text(f"Score: {self.score}", 10, SCREEN_HEIGHT - 30, arcade.color.WHITE, 16)
         arcade.draw_text(f"Lives: {self.lives}", 10, SCREEN_HEIGHT - 60, arcade.color.RED, 16)
 
-        if self.lives <= 0:
-            arcade.draw_text("GAME OVER", SCREEN_WIDTH/2, SCREEN_HEIGHT/2, arcade.color.WHITE, 50)
+        if self.game_over:
+            arcade.draw_text("GAME OVER", SCREEN_WIDTH/2 - 120, SCREEN_HEIGHT/2, arcade.color.WHITE, 50)
+            arcade.draw_text("Final Score: " + str(self.score), SCREEN_WIDTH/2 - 80, SCREEN_HEIGHT/2 - 60, arcade.color.YELLOW, 25)
 
     def on_key_press(self, key, modifiers):
         if key == arcade.key.LEFT:
