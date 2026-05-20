@@ -20,6 +20,7 @@ class GameWindow(arcade.Window):
         self.enemy_spawn_timer = 0
         self.score = 0
         self.lives = 5
+        self.game_over = False
 
 
     def on_draw(self):
@@ -51,6 +52,9 @@ class GameWindow(arcade.Window):
             self.player_speed = 0
 
     def on_update(self, delta_time):
+        if self.game_over:
+            return
+
         print(self.bullets)
         self.player_x += self.player_speed
 
