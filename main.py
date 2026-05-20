@@ -65,7 +65,14 @@ class GameWindow(arcade.Window):
 
         for enemy in self.enemies:
             enemy[1] -= 3
-            self.enemies = [e for e in self.enemies if e[1] > 0]
+            #self.enemies = [e for e in self.enemies if e[1] > 0]
+            surviving_enemies = []
+            for enemy in self.enemies:
+                if enemy[1] > 0:
+                    surviving_enemies.append(enemy)
+                else:
+                    self.lives -= 1
+                self.enemies = surviving_enemies
 
         for bullet in self.bullets[:]:
             for enemy in self.enemies[:]:
